@@ -9,3 +9,9 @@ Run tests in parallel
 Install pytext-xdis `pip install selenium pytest pytest-xdist`
 Run tests `pytest -n 4`
 You can replace 4 with the number of workers you prefer
+
+Run with html report
+Install pytest-html `pip install pytest-html`
+Run tests `pytest -n 4 --html=report.html`
+
+
